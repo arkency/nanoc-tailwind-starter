@@ -3,5 +3,4 @@
 set -e
 set -x
 
-./bin/build
-./bin/nanoc live
+./bin/foreman start

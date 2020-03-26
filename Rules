@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+ignore '/index.js'
+
 compile '/**/*.html' do
   layout '/default.*'
 

@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production parcel build --out-dir output/ content/index.js"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

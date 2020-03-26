@@ -4,4 +4,4 @@ set -e
 set -x
 
 ./bin/build
-./bin/nanoc view
+./bin/nanoc live

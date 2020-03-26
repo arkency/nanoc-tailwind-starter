@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +52,8 @@ a:hover {
   line-height: 20px;
 }
 
-#main ul, #main ol {
+#main ul,
+#main ol {
   margin: 20px;
 }
 

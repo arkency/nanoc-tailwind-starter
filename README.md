@@ -26,3 +26,13 @@ Starts if foreground and live reloads HTML, JS and CSS changes.
 ./bin/server
 open http://localhost:3000/
 ```
+
+## Unpacking latest release into current directory
+
+```
+curl -s https://api.github.com/repos/arkency/nanoc-parcel-tailwind-starter/releases/latest |\
+  grep tarball_url |\
+  cut -d'"' -f4 |\
+  xargs -n 1 curl -sSL |\
+  tar -xz --strip-components=1
+```

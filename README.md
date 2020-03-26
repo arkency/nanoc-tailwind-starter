@@ -1,0 +1,28 @@
+# Nanoc + Parcel + TailwindCSS
+
+Starter kit for static sites with a bit of JavaScript and TailwindCSS styling.
+
+## Initial setup
+
+It is assumed you already have Ruby with Bundler and Node with Yarn present.
+
+```
+./bin/setup
+```
+
+## Build for production
+
+One-time processing with optimizations.
+
+```
+./bin/build
+```
+
+## Build for development
+
+Starts if foreground and live reloads HTML, JS and CSS changes.
+
+```
+./bin/server
+open http://localhost:3000/
+```

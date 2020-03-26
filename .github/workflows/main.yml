@@ -1,0 +1,23 @@
+name: Release
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Release
+        id: create_release
+        uses: actions/create-release@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: ${{ github.sha }}
+          release_name: ${{ github.sha }}
+          draft: false
+          prerelease: false

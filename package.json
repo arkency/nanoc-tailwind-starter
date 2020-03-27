@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build": "NODE_ENV=production parcel build --out-dir output/ content/index.js content/stylesheet.css",
-    "server": "NODE_ENV=development parcel watch --out-dir output/ content/index.js content/stylesheet.css"
+    "build": "NODE_ENV=production parcel build --out-dir output/ content/main.js",
+    "server": "NODE_ENV=development parcel watch --out-dir output/ content/main.js"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.5",

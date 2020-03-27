@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
-ignore '/index.js'
-ignore '/stylesheet.css'
+ignore '/main.*'
 
 compile '/**/*.html' do
   layout '/default.*'

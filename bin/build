@@ -3,6 +3,5 @@
 set -e
 set -x
 
-./bin/nanoc prune --yes
 ./bin/nanoc compile -e production
 yarn build

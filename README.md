@@ -1,6 +1,6 @@
 # Nanoc + Parcel + TailwindCSS
 
-Starter kit for static sites with a bit of JavaScript and TailwindCSS styling.
+Starter kit for static sites on [nanoc](https://nanoc.ws) with a bit of JavaScript and TailwindCSS styling.
 
 ## Initial setup
 

@@ -3,5 +3,5 @@
 set -e
 set -x
 
-bundle install
+bundle check || bundle install
 yarn install

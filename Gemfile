@@ -8,5 +8,5 @@ gem "adsf-live"
 gem "foreman"
 
 group :nanoc do
-  gem 'guard-nanoc'
+  gem "guard-nanoc"
 end

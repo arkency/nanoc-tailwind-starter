@@ -8,6 +8,6 @@
     "autoprefixer": "^9.7.5",
     "parcel-bundler": "^1.12.4",
     "postcss-modules": "^1.5.0",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.4.5"
   }
 }

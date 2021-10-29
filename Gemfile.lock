@@ -26,7 +26,6 @@ GEM
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
     ffi (1.15.4)
-    foreman (0.87.2)
     formatador (0.3.0)
     guard (2.18.0)
       formatador (>= 0.2.4)
@@ -118,7 +117,6 @@ PLATFORMS
 DEPENDENCIES
   adsf
   adsf-live
-  foreman
   guard-nanoc
   nanoc
 

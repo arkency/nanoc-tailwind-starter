@@ -3,4 +3,4 @@
 set -e
 set -x
 
-./bin/foreman start
+make dev

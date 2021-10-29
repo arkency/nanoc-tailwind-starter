@@ -4,7 +4,7 @@ Starter kit for static sites on [nanoc](https://nanoc.ws) with a bit of JavaScri
 
 ## Initial setup
 
-It is assumed you already have Ruby with Bundler and Node with Yarn present.
+It is assumed you already have Ruby with Bundler and Node present.
 
 ```
 ./bin/setup

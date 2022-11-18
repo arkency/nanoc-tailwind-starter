@@ -2,4 +2,3 @@ output/
 tmp/nanoc/
 crash.log
 node_modules/
-.parcel-cache/

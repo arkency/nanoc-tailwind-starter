@@ -110,6 +110,7 @@ GEM
       pastel (~> 0.8)
     tty-platform (0.3.0)
     tty-which (0.5.0)
+    webrick (1.7.0)
     zeitwerk (2.6.6)
 
 PLATFORMS
@@ -120,6 +121,7 @@ DEPENDENCIES
   adsf-live
   guard-nanoc
   nanoc
+  webrick
 
 BUNDLED WITH
    2.2.29

@@ -1,6 +1,6 @@
-# Nanoc + Parcel + TailwindCSS
+# Nanoc + TailwindCSS
 
-Starter kit for static sites on [nanoc](https://nanoc.ws) with a bit of JavaScript and TailwindCSS styling.
+Starter kit for static sites on [nanoc](https://nanoc.ws) with TailwindCSS styling.
 
 ## Initial setup
 
@@ -20,7 +20,7 @@ One-time processing with optimizations.
 
 ## Build for development
 
-Starts if foreground and live reloads HTML, JS and CSS changes.
+Starts in foreground, live reloads HTML and CSS changes.
 
 ```
 ./bin/server
@@ -30,7 +30,7 @@ open http://localhost:3000/
 ## Unpacking latest release into current directory
 
 ```
-curl -s https://api.github.com/repos/arkency/nanoc-parcel-tailwind-starter/releases/latest |\
+curl -s https://api.github.com/repos/arkency/nanoc-tailwind-starter/releases/latest |\
   grep tarball_url |\
   cut -d'"' -f4 |\
   xargs -n 1 curl -sSL |\

@@ -4,4 +4,4 @@ set -e
 set -x
 
 bundle check || bundle install
-npm install
+npm --no-fund --no-audit install

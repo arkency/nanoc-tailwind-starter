@@ -7,7 +7,7 @@ Starter kit for static sites on [nanoc](https://nanoc.ws) with TailwindCSS styli
 It is assumed you already have Ruby with Bundler and Node present.
 
 ```
-./bin/setup
+make setup
 ```
 
 ## Build for production
@@ -15,7 +15,7 @@ It is assumed you already have Ruby with Bundler and Node present.
 One-time processing with optimizations.
 
 ```
-./bin/build
+make build
 ```
 
 ## Build for development
@@ -23,7 +23,7 @@ One-time processing with optimizations.
 Starts in foreground, live reloads HTML and CSS changes.
 
 ```
-./bin/server
+make dev
 open http://localhost:3000/
 ```
 

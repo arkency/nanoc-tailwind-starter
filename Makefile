@@ -12,7 +12,7 @@ build: ## Production build
 	@npm run build
 
 setup: ## Install dependencies
-	@bundle check || bundle install
+	@bundle install
 	@npm --no-fund --no-audit install
 
 help:

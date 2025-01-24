@@ -5,11 +5,11 @@ nanoc: ## Nanoc live preview
 	@env bin/nanoc live -L -e development
 
 css: ## Compile CSS
-	@tailwindcss -i ./content/main.css -o ./output/main.css --watch
+	@./bin/tailwindcss -i ./content/main.css -o ./output/main.css --watch
 
 build: ## Production build
 	@./bin/nanoc compile -e production
-	@tailwindcss -i ./content/main.css -o ./output/main.css --minify
+	@./bin/tailwindcss -i ./content/main.css -o ./output/main.css --minify
 
 setup: ## Install dependencies
 	@bundle install

@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build": "NODE_ENV=production npx tailwindcss -i ./content/main.css -o ./output/main.css --minify",
-    "css": "NODE_ENV=development npx tailwindcss -i ./content/main.css -o ./output/main.css --watch"
+    "build": "NODE_ENV=production npx @tailwindcss/cli -i ./content/main.css -o ./output/main.css --minify",
+    "css": "NODE_ENV=development npx @tailwindcss/cli -i ./content/main.css -o ./output/main.css --watch"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.0.0",

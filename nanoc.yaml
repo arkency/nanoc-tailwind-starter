@@ -1,6 +1,6 @@
 prune:
   auto_prune: true
-  exclude: ["main.js", "main.js.map", "main.css", "main.css.map"]
+  exclude: ["main.css", "main.css.map"]
 
 data_sources:
   - type: filesystem

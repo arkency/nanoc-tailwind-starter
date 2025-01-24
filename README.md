@@ -4,7 +4,7 @@ Starter kit for static sites on [nanoc](https://nanoc.ws) with TailwindCSS styli
 
 ## Initial setup
 
-It is assumed you already have Ruby with Bundler and Node present.
+It is assumed you already have Ruby present.
 
 ```
 make setup

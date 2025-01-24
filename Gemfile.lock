@@ -114,6 +114,8 @@ GEM
     sorted_set (1.0.3)
       rbtree
       set (~> 1.0)
+    tailwindcss-ruby (4.0.0-arm64-darwin)
+    tailwindcss-ruby (4.0.0-x86_64-linux-gnu)
     thor (1.3.2)
     tty-color (0.6.0)
     tty-command (0.10.1)
@@ -132,6 +134,7 @@ DEPENDENCIES
   adsf-live
   guard-nanoc
   nanoc
+  tailwindcss-ruby
   webrick
 
 BUNDLED WITH

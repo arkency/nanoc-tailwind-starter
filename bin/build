@@ -3,5 +3,4 @@
 set -e
 set -x
 
-./bin/nanoc compile -e production
-npm run build
+make build

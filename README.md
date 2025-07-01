@@ -2,7 +2,7 @@
 
 Starter kit for static sites on [Nanoc](https://nanoc.ws) generator with TailwindCSS styling. Ruby is the only dependency required.
 
-## How to start new site
+## How to start a new site
 
 It is assumed you have Ruby present on your system. Create a [new repository from the template](https://github.com/new?template_name=nanoc-tailwind-starter&template_owner=arkency). Or just copy the contents of this repository to any place — whatever works.
 

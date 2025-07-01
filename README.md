@@ -1,6 +1,6 @@
 # Nanoc + TailwindCSS
 
-Starter kit for static sites on [Nanoc](https://nanoc.ws) generator with TailwindCSS styling. Ruby is the only dependency required.
+Starter kit for static sites on [Nanoc](https://nanoc.ws) generator with [TailwindCSS](https://tailwindcss.com/) styling. Ruby is the only dependency required.
 
 ## How to start a new site
 
@@ -12,7 +12,7 @@ There's a bunch of useful tasks to make life easier:
 
 * `make dev` spins development server on [localhost:3000](http://localhost:3000) with live reloads of CSS and HTML
 
-* `make build` produces optimized `output/`, ready for production
+* `make build` produces optimized `output/` — ready for production
 
 ## Keeping up-to-date with starter kit
 
@@ -30,4 +30,4 @@ curl -s https://api.github.com/repos/arkency/nanoc-tailwind-starter/releases/lat
     --exclude Gemfile.lock
 ```
 
-Then you have decide which changes go in and which not with `git diff`.
+Then you have decide which changes go in and which not based on the `git diff`. And that's it.

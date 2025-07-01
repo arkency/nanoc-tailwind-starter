@@ -8,6 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: softprops/action-gh-release@v2
+        if: github.repository == "arkency/nanoc-tailwind-starter"
         with:
           name: release-${{ github.sha }}
           tag_name: version-${{ github.sha }}

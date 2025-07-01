@@ -13,7 +13,6 @@ There's a bunch of useful tasks to make life easier:
 * `make dev` spins development server on [localhost:3000](http://localhost:3000) with live reloads of CSS and HTML
 
 * `make build` produces optimized `output/`, ready for production
-```
 
 ## Keeping up-to-date with starter kit
 

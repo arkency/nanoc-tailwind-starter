@@ -8,7 +8,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build:
-    if: github.repository != "arkency/nanoc-tailwind-starter"
+    if: github.repository != 'arkency/nanoc-tailwind-starter'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
